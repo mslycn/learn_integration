@@ -1,0 +1,10 @@
+{
+  "domain": "your_domain_name",
+  "name": "Your Integration",
+  "codeowners": [],
+  "dependencies": [],
+  "documentation": "https://www.example.com",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+}
