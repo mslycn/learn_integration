@@ -1,10 +1,11 @@
 {
-  "domain": "your_domain_name",
-  "name": "Your Integration",
-  "codeowners": [],
+  "domain": "learn_integration",
+  "name": "Learn Integration",
+  "version": "v0.1.0",
+  "codeowners": ["@mslycn"],
   "dependencies": [],
-  "documentation": "https://www.example.com",
+  "documentation": "https://github.com/mslycn/learn_integration/blob/main/README.m",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
-  "requirements": [],
+  "requirements": []
 }
