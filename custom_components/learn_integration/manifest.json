@@ -3,7 +3,7 @@
   "name": "Learn Integration",
   "version": "v0.1.0",
   "codeowners": ["@mslycn"],
-  "config_flow": false,
+  "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/mslycn/learn_integration/blob/main/README.m",
   "integration_type": "hub",
