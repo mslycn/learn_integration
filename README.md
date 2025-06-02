@@ -46,7 +46,7 @@ Config_flow.py->__init__.py->PLATFORMS中顺序调用async_setup_entry
 
 ## 应用
 有些硬件太小众了怎么自己写集成
-
+~~~
 mainfest.json
 
 {
@@ -62,7 +62,7 @@ mainfest.json
   "requirements": []
 }
 
-
+~~~
 domain：集成的唯一标识符，用于在系统中识别和区分不同的集成。它是一个字符串值，必须是唯一的。
 name：集成的名称，用于在用户界面中显示。它是一个字符串值，可以是本地化的名称。
 documentation：集成的文档链接，可以指向集成的详细文档、说明或支持网页。它是一个URL字符串。
