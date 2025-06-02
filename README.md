@@ -7,6 +7,7 @@ local
 
 remote:https://github.com/mslycn/learn_integration
 
+
 ## step by step
 
 创建一个名为“learn-integration”的Home Assistant自定义集成
@@ -68,6 +69,18 @@ documentation：集成的文档链接，可以指向集成的详细文档、说�
 dependencies：集成所依赖的其他集成。它是一个字符串数组，列出了其他集成的domain，以表明当前集成需要这些其他集成才能正常运行。
 codeowners：指定代码所有者的信息，用于在代码仓库中指定负责维护和审核集成代码的人员。它是一个字符串数组，包含GitHub用户名或电子邮件地址。
 config_flow：指定集成是否包含配置流。配置流用于向用户提供配置选项，以便设置集成。它是一个布尔值，可以是true或false。
+
+## git Information for project
+cd /data/homeassistant202405
+
+git add .
+
+git commit -m "update readme.md"
+
+git push -u origin main
+
+
+
 
 ## Thanks
 My heartfelt thanks to:
