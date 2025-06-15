@@ -7,11 +7,6 @@ local
 
 remote:https://github.com/mslycn/learn_integration
 
-
-## step by step
-
-创建一个名为“learn-integration”的Home Assistant自定义集成
-
 首先，对于不熟悉Home Assistant集成的新手来说，可能不了解代码的结构。对各个部分的功能和它们如何协同工作不太清楚。不知道组件的执行流程，从哪个函数方法调用，配置的数据存储在哪里，怎么保存自己需要的数据
 
 代码包括目录结构、manifest.json配置、init.py的核心代码，以及测试步骤等。
@@ -19,6 +14,14 @@ remote:https://github.com/mslycn/learn_integration
 
 同步函数和异步函数（setup与async_setup）：直接学习异步函数
 不带UI配置界面的集成和带UI配置界面的集成：直接学习带UI配置界面的集成
+
+## step by step
+
+创建一个名为“learn-integration”的Home Assistant自定义集成
+
+
+
+
 
 
 第一步：最小化集成
@@ -88,6 +91,7 @@ git push -u origin main
 ## Thanks
 My heartfelt thanks to:
 - [integration template](https://github.com/ludeeus/integration_blueprint) a template for HA integrations.
+- [Part 1-Part 4 shows how to create a basic integration](https://community.home-assistant.io/t/tutorial-for-creating-a-custom-component/204793)
 
 
 
