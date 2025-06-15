@@ -91,6 +91,7 @@ git push -u origin main
 ## Thanks
 My heartfelt thanks to:
 - [integration template](https://github.com/ludeeus/integration_blueprint) a template for HA integrations.
+- [Home Assistant Custom Component for Ecovacs Deebot-wihout ui](https://github.com/Ligio/hacc-ozmo)
 - [Part 1-Part 4 shows how to create a basic integration](https://community.home-assistant.io/t/tutorial-for-creating-a-custom-component/204793)
 
 
